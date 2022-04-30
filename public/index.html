@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta name="description" content=" Toto App"></meta>
+    <meta name="author" content="Author"></meta>
+    <meta name="keyword" content="todo, app"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/index.css" >
+</head>
+<body class="container-fluid">
+    <header class="row container-fluid-inverted d-flex flex-row justify-content-center align-items-center" id="home">
+        <div class="col-sm-12 col-md-6 col-lg-6 align-items-right d-flex flex-row justify-content-center align-items-center">
+            <img class="col-sm-2 img-fluid img-thumbnail img-logo" src="./Assets/car-logo2.png">
+            <h3 class="col-sm-4 text-logo">Adyasha Tours & Travels</h3>
+        </div>
+        <div class="row col-sm-12 col-md-6 col-lg-6 align-items-left d-flex flex-row justify-content-center align-items-center">
+            <span class="d-inline-block mr-3 mb-1"> Email: someemail@example.com</span>
+            <span class="mb-1"> Contact Us: 9040582339</span>
+            <br/>
+        </div>
+    </header>
+
+
+    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-light bg-light" id="navsec">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rentals">Rentals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Pricing</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#feedback">Feedback</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contactus">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- // Carosole -->
+    <div class="container col-sm-12 col-md-10 col-lg-10 d-flex justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade-design" data-interval="5000" data-wrap=true data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner justify-content-center align-items-center">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./Assets/long_road.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Travel with us to explore the roads that pears through the heart of the nature. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./Assets/mountain_photo.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Explore the mountains that touch the sky</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./Assets//beach_day.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Enjoy the view of a sunset on a quiet beach shore </p>
+                </div>
+            </div>
+        </div>
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a> -->
+        </div>
+    </div>
+    <br id="rentals" data-spy="scroll" data-target="#navsec" data-offset="0"/>
+    <br/>
+    <!-- // Some text Ads -->
+    <div class="container-fluid">
+        <div class="row col-sm-12 col-md-12 col-lg-12">
+            <p class="header-text-bold-light" >WHY CHOOSE US!!!!!</p>
+        </div>
+        <div class="row card-black-light-border-container col-sm-12 col-md-12 col-lg-12 d-flex flex-row justify-content-center align-items-center">
+            <div class="card card-black-light-border col-sm-5 col-md-3 col-lg-2" >
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons">
+                        <img src="./Assets/icon_satisfaction.png" alt="Customer Satisfaction">
+                    </span>
+                    <a href="" class="card-link">Customer Satisfaction</a>
+                    <div class="bottom-shadow"></div>
+                </div>
+            </div>
+
+            <div class="card card-black-light-border col-sm-5 col-md-3 col-lg-2" >
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons">
+                        <img src="./Assets/Icon_Time.png" alt="Punctuality">
+                    </span>
+                    <a href="" class="card-link">Punctuality</a>
+                    <div class="bottom-shadow"></div>
+                </div>
+            </div>
+
+            <div class="card card-black-light-border col-sm-10 col-md-3 col-lg-2" >
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons">
+                        <img src="./Assets/icon_trust.png" alt="Secure">
+                    </span>
+                    <a href="" class="card-link">Secure</a>
+                    <div class="bottom-shadow"></div>
+                </div>
+            </div>
+
+            <div class="card card-black-light-border col-sm-5 col-md-5 col-lg-2" >
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons">
+                        <img src="./Assets/icon_support.png" alt="Customer Satisfaction">
+                    </span>
+                    <a href="" class="card-link">Customer Supportive</a>
+                    <div class="bottom-shadow"></div>
+                </div>
+            </div>
+
+            <div class="card card-black-light-border col-sm-5 col-md-5 col-lg-2" >
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons">
+                        <img src="./Assets/icon_cost.png" alt="Customer Satisfaction">
+                    </span>
+                    <a href="" class="card-link">Cost Effective</a>
+                    <div class="bottom-shadow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Why Book With Us -->
+    <div class="container-fluid" id="price">
+        <br/>
+        <br/>
+       
+        <p class="header-text-bold-light" id="price"> CHECK THE BEST OPTIONS THAT SUITS YOUR NEED WITH AFFORDABLE PRICE</p>
+        <br/>
+        <br/>
+        <div class="row col-sm-12 col-md-12 col-lg-12 d-flex flex-row justify-content-center aligh-items-center">
+
+            <div class="card card-black-light-border card-transparent col-sm-5 col-md-5 col-lg-3  d-flex flex-row justify-content-center" >
+                <div class="card-body card-white-light-border d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons" onClick="showCardWindow('microHatch')">
+                        <img class="flip" src="./Assets/car_hatch_mini.svg" alt="Micro Hatches" data-link="Icon made by Freepik from www.flaticon.com">
+                    </span>
+                    <!-- <div class="bottom-button"  onClick="showCardWindow('microHatch')">Mico Hatchback</div> -->
+                </div>
+            </div>
+            <div class="card card-black-light-border card-transparent col-sm-5 col-md-5 col-lg-3  d-flex flex-row justify-content-center" >
+                <div class="card-body card-white-light-border d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons" onClick="showCardWindow('miniHatch')">
+                        <img src="./Assets/car_hatch.svg" alt="Mini Hatches" data-link="Icon made by Freepik from www.flaticon.com">
+                    </span>
+                    <!-- <div class="bottom-button" onClick="showCardWindow('miniHatch')"> Mini Hatchback</div> -->
+                </div>
+            </div>
+            <div class="card card-black-light-border card-transparent col-sm-5 col-md-5 col-lg-3  d-flex flex-row justify-content-center" >
+                <div class="card-body card-white-light-border d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons" onClick="showCardWindow('sedan')">
+                        <img src="./Assets/car_sedan.svg" alt="Sedans" data-link="Icon made by Freepik from www.flaticon.com">
+                    </span>
+                    <!-- <div class="bottom-button" onClick="showCardWindow('sedan')"> Sedans</div> -->
+                </div>
+            </div>
+            <div class="card card-black-light-border card-transparent col-sm-5 col-md-5 col-lg-3  d-flex flex-row justify-content-center" >
+                <div class="card-body card-white-light-border d-flex flex-column justify-content-center align-items-center">
+                    <span class="material-icons" onClick="showCardWindow('suv')">
+                        <img src="./Assets/car_suv.svg" alt="Car Suvs" data-link="Icon made by Freepik from www.flaticon.com">
+                    </span>
+                    <!-- <div class="bottom-button" onClick="showCardWindow('suv')"> Suv</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //People Feedback -->
+        <br id="feedback"/>
+        <br/>
+        <br/>
+    <div class="container-fluid" > 
+        
+        <p class="header-text-bold-light"> SEE!!!!... WHAT OUR SATISFIED CUSTOMERS SAY ABOUT US </p>
+        <div id="feedback-container" class="row col-sm-10 col-md-12 col-lg-12 d-flex flex-row justify-content-center aligh-items-center">
+            <div class="card card-black-light-border d-flex flex-column justify-content-center align-items-center" >
+                <div class="card-body card-rating-transparent-border d-flex flex-column justify-content-center align-items-center">
+                    <p> Theeir service is the best class in the town and they are very preffessional and well behaved. 
+                        The agency takes care of the minute details and makes sure that the customer doesn't feel any sort of problem.
+                    </p>
+                    <div class="bottom-section-rating d-flex flex-row justify-content-center align-items-center" onClick="showCardWindow('suv')"> 
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_half_filled.svg"></img></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-black-light-border d-flex flex-column justify-content-center align-items-center" >
+                <div class="card-body card-rating-transparent-border d-flex flex-column justify-content-center align-items-center">
+                    <p> Theeir service is the best class in the town and they are very preffessional and well behaved. 
+                        The agency takes care of the minute details and makes sure that the customer doesn't feel any sort of problem.
+                    </p>
+                    <div class="bottom-section-rating d-flex flex-row justify-content-center align-items-center" onClick="showCardWindow('suv')"> 
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_empty.svg"></img></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-black-light-border d-flex flex-column justify-content-center align-items-center" >
+                <div class="card-body card-rating-transparent-border d-flex flex-column justify-content-center align-items-center">
+                    <p> Theeir service is the best class in the town and they are very preffessional and well behaved. 
+                        The agency takes care of the minute details and makes sure that the customer doesn't feel any sort of problem.
+                    </p>
+                    <div class="bottom-section-rating d-flex flex-row justify-content-center align-items-center" onClick="showCardWindow('suv')"> 
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_half_filled.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_empty.svg"></img></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-black-light-border d-flex flex-column justify-content-center align-items-center" >
+                <div class="card-body card-rating-transparent-border d-flex flex-column justify-content-center align-items-center">
+                    <p> Theeir service is the best class in the town and they are very preffessional and well behaved. 
+                        The agency takes care of the minute details and makes sure that the customer doesn't feel any sort of problem.
+                    </p>
+                    <div class="bottom-section-rating d-flex flex-row justify-content-center align-items-center" onClick="showCardWindow('suv')"> 
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_fill.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_half_filled.svg"></img></span>
+                        <span class="rating-container"><img src="./Assets/star_empty.svg"></img></span>
+                    </div>
+                </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+    <!-- //Contact Us -->
+    <br id="contactus"/>
+    <br/>
+    <div class="container-fluid" id="contact-us"> 
+        <p class="header-text-bold-light"> CONTACT US </p>
+        <br/>
+        <br/>
+        <div class="row col-sm-10 col-md-12 col-lg-l2 d-flex flex-row justify-content-center align-item-center">
+            <div class="contactslist">
+                <p><b>Call Us On :</b> 080-140-1132</p>
+                <p><b>Email Us At :</b> someexample@example.com</p>
+                <br/>
+                <p>OR</p>
+                <br/>
+                <p> Please provide your details so that we can connect with you.</p>
+            </div>
+            <div class="separator">
+               
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label  for="fullName"> Your Full Name </label>
+                        <input type="text" name="fullName" class="form-control" id="fullName" placeholder="Ex: John Wick" required minlength="5" maxlength="50">
+                        <p id="fullName-error" class="error-message"></p>
+                    </div>
+                    <div class="form-group">
+                        <label  for="contactNo"> Your Phone No </label>
+                        <input type="number" name="contactNo" class="form-control" id="contactNo" placeholder="Ex: 9040582339" required>
+                        <p id="contactNo-error" class="error-message"></p>
+                    </div>
+                    <div class="form-group">
+                        <label  for="email">  Your Email Address </label>
+                        <input type="text" name="email" class="form-control" id="email" placeholder="Ex: someone@gmail.com">
+                        <p id="email-error" class="error-message"></p>
+                    </div>
+                    <div class="form-group">
+                        <label  for="additionalInfo"> Additional Information </label>
+                        <textarea row=10 col=100 name="additionalInfo" class="form-control" id="additionalInfo" placeholder="Ex: The places for which you are enquiring"></textarea>
+                    </div>
+
+                    <button type="button" onclick="submitForm(event)" class="btn btn-primary align-right">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer >
+        <div class="row col-sm-10 col-md-12 col-lg-l2 d-flex flex-row justify-content-center align-item-center">
+            <div class="row col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-flex-start align-items-center footer-left">
+                <p>#121, 4th Street, 3rd Cross, Master Canteen Square</p>
+                <p>Bhubaneswar, Odisha, 751006</p>
+            </div>
+            <div class="row col-sm-12 col-md-6 col-lg-6 d-flex flex-row justify-content-center align-items-center">
+                <div class="bottom-section-rating d-flex flex-row justify-content-center align-items-center">
+                    <span class="rating-container"><img src="./Assets/facebook.svg"></img></span>
+                    <span class="rating-container"><img src="./Assets/instagram.svg"></img></span>
+                    <span class="rating-container"><img src="./Assets/twitter.svg"></img></span>
+                </div>
+                <div>
+                    <p>2020Copywrite @AMStudio </p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <!-- "Icon made by Freepik from www.flaticon.com" -->
+
+<!--Boot strap modal component-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+            </h5>
+        </div>
+        <div class="modal-body">
+           <div class="row back-white d-flex flex-column justify-content-center align-items-flex-start">
+               <p class="modal-text-ctr"> </p>
+               <p class="modal-text-ctr"> </p>
+               <p class="modal-text-ctr"> </p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script src="./javascripts/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./javascripts/bootstrap.min.js"></script>
+</body>
+</html>

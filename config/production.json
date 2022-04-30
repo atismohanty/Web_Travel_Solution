@@ -1,0 +1,6 @@
+{
+    "emailAddress": "atismohanty1111@gmail.com",
+    "adminName" : "Adyasa Tours & Travels",
+    "smtpServer":"smtp.gmail.com",
+    "port":"587"
+}
